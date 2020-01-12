@@ -5,20 +5,25 @@ import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
 
-import MainContent from "../components/MainContent/MainContent"
+import Header from "../components/Header/Header"
+
+import MainContainer from "../components/MainContent/MainContainer"
 
 /*
 
 header - Navbar
-left - Social Links
-right - Email
-content
-  main
-    section1 - Intro
-    section2 - About
-    section3 - Projects
-    section4 - Achievements
-    section4 - Get in touch
+MAIN CONTAINER
+  left - Social Links
+  right - Email
+  content/sections padding-100-150px
+    main
+      section1 - Intro
+      section2 - About
+      section3 - Projects
+      section4 - Achievements
+      section4 - Get in touch
+    footer
+    OR
   footer
 
 */
@@ -32,7 +37,8 @@ const IndexPage = () => (
     {/* <h1>Hi people</h1>
     <p>Welcome to your new Gatsby site.</p>
     <p>Now go build something great.</p> */}
-    <MainContent />
+    <Header />
+    <MainContainer />
     {/* <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
       <Image />
     </div> */}
