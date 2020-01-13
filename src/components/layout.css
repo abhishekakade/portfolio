@@ -1,5 +1,4 @@
-/* @import url("https://fonts.googleapis.com/css?family=Roboto+Mono:300&display=swap"); */
-@import url("https://fonts.googleapis.com/css?family=Roboto|Roboto+Mono:300&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Roboto|Ubuntu+Mono&display=swap");
 
 html {
   font-family: "Roboto", sans-serif;
@@ -37,13 +36,12 @@ section {
 }
 
 .mono {
-  font-family: "Roboto Mono", monospace;
+  font-family: "Ubuntu Mono", monospace;
 }
 
 .small {
-  /* font-size: 0.8rem; */
-  font-size: 14px;
-  /* font-weight: 100; */
+  font-size: 1rem;
+  font-weight: 400;
 }
 
 .title {
@@ -91,7 +89,7 @@ a {
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
   color: #64ffda;
-  font-family: "Roboto Mono", monospace;
+  font-family: "Ubuntu Mono", monospace;
 }
 a:active,
 a:hover {
@@ -638,7 +636,7 @@ tt,
 code {
   background-color: hsla(0, 0%, 0%, 0.04);
   border-radius: 3px;
-  font-family: "SFMono-Regular", Consolas, "Roboto Mono", "Droid Sans Mono",
+  font-family: "SFMono-Regular", Consolas, "Ubuntu Mono", "Droid Sans Mono",
     "Liberation Mono", Menlo, Courier, monospace;
   padding: 0;
   padding-top: 0.2em;
