@@ -1,0 +1,15 @@
+#intro p {
+  max-width: 70ch;
+}
+
+#intro .get-in-touch-btn {
+  padding: 0.75rem 1.25rem;
+  border: 1px solid #64ffda;
+  border-radius: 4px;
+  text-decoration: none;
+  font-family: monospace;
+}
+
+#intro .get-in-touch-btn:hover {
+  background-color: #10293b;
+}

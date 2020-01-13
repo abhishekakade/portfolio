@@ -1,6 +1,6 @@
-import { Link } from "gatsby"
-import PropTypes from "prop-types"
 import React from "react"
+import PropTypes from "prop-types"
+// import { Link } from "gatsby"
 import "./Header.css"
 
 // const Header = ({ siteTitle }) => (
@@ -14,34 +14,34 @@ const Header = () => (
     <nav id="navbar">
       <ul id="nav-list">
         <li>
-          <Link to="#" className="navlinks">
+          <a href="#about" className="navlinks">
             About
-          </Link>
+          </a>
         </li>
         <li>
-          <Link to="#" className="navlinks">
+          <a href="#projects" className="navlinks">
             Projects
-          </Link>
+          </a>
         </li>
         <li>
-          <Link to="#" className="navlinks">
+          <a href="#contact" className="navlinks">
             Contact
-          </Link>
+          </a>
         </li>
         <li>
-          <Link
-            to="#"
+          <a
+            href="#"
             className="navlinks resume"
             style={{
               color: "#64ffda",
               padding: "0.5rem 0.75rem",
               margin: "auto 1.25rem",
               border: "1px solid #64ffda",
-              borderRadius: "5px",
+              borderRadius: "4px",
             }}
           >
             Resume
-          </Link>
+          </a>
         </li>
       </ul>
     </nav>
