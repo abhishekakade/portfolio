@@ -13,3 +13,16 @@
 #intro .get-in-touch-btn:hover {
   background-color: #10293b;
 }
+
+#intro .title {
+  background: -webkit-linear-gradient(#e6f1ff, #5d72a2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* #intro h3 {
+  background: -webkit-linear-gradient(#8892b0, #333f58);
+  background: -webkit-linear-gradient(#8892b0, #546892);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+} */
