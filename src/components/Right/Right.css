@@ -1,0 +1,42 @@
+#right {
+  position: fixed;
+  bottom: 0;
+  right: 40px;
+  width: 40px;
+  z-index: 10;
+  color: #8892b0;
+}
+#right-email::after {
+  content: "";
+  display: block;
+  width: 1px;
+  height: 90px;
+  background-color: #8892b0;
+  margin: 0px auto;
+}
+
+#right-email a {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  color: #8892b0;
+  text-decoration: none;
+  /* font-family: "Roboto Mono", monospace; */
+  font-family: monospace;
+  font-size: 16px;
+  margin-bottom: 2rem;
+  transition: 0.5s;
+}
+
+#right-email a:hover {
+  color: #64ffda;
+  transform: translateY(-4px);
+}
+
+#right-email {
+  display: flex;
+  flex-direction: column;
+  -webkit-box-align: center;
+  align-items: center;
+  padding: 0px;
+  margin: 0px;
+}
