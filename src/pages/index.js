@@ -2,12 +2,12 @@ import React from "react"
 import { Link } from "gatsby"
 
 import Layout from "../components/layout"
-import Image from "../components/image"
+// import Image from "../components/image"
 import SEO from "../components/seo"
 
-import Header from "../components/Header/Header"
+// import Header from "../components/Header/Header"
 
-import MainContainer from "../components/MainContent/MainContainer"
+import MainContainer from "../components/Sections/Sections"
 
 /*
 
@@ -37,7 +37,7 @@ const IndexPage = () => (
     {/* <h1>Hi people</h1>
     <p>Welcome to your new Gatsby site.</p>
     <p>Now go build something great.</p> */}
-    <Header />
+    {/* <Header /> */}
     <MainContainer />
     {/* <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
       <Image />
