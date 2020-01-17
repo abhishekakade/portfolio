@@ -48,10 +48,33 @@ section {
   color: #ccd6f6;
 }
 
+.hr-green {
+  border-top: 1px solid #64ffda;
+  max-width: 70ch;
+}
+
+/* 
+h3.title::after {
+  display: inline-block;
+  content: "";
+  position: relative;
+  width: 55ch;
+  height: 1px;
+  top: -5px;
+  margin-left: 0.5rem;
+  background-color: #64ffda;
+}
+ */
+
 /* custom styles */
 
-.highlight-text {
+.highlight-text-green {
   color: #64ffda;
+}
+
+.highlight-text-white {
+  color: #ccd6f6;
+  color: #e6f1ff;
 }
 
 article,
