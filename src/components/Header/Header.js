@@ -26,23 +26,36 @@ const Header = () => {
       <nav id="navbar">
         <ul id="nav-list">
           <li>
-            <a href="#about" className="navlinks">
+            <a
+              href="#about"
+              className="navlinks"
+              aria-label="Jump to About section"
+            >
               About
             </a>
           </li>
           <li>
-            <a href="#projects" className="navlinks">
+            <a
+              href="#projects"
+              className="navlinks"
+              aria-label="Jump to Projects section"
+            >
               Projects
             </a>
           </li>
           <li>
-            <a href="#contact" className="navlinks">
+            <a
+              href="#contact"
+              className="navlinks"
+              aria-label="Jump to Contact section"
+            >
               Contact
             </a>
           </li>
           <li>
             <a
               href="#"
+              aria-label="Download Abhishek's resume file"
               className="navlinks resume"
               style={{
                 color: "#64ffda",

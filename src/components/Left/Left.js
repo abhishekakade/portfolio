@@ -12,6 +12,7 @@ const Left = () => {
             href="https://github.com/abhishekakade"
             target="_blank"
             rel="nofollow noopener noreferrer"
+            aria-label="Abhishek's GitHub Profile"
           >
             <Github className="icons" />
           </a>
@@ -21,6 +22,7 @@ const Left = () => {
             href="https://www.linkedin.com/in/abhishek-kakade/"
             target="_blank"
             rel="nofollow noopener noreferrer"
+            aria-label="Abhishek's LinkedIn Profile"
           >
             <Linkedin className="icons" />
           </a>
@@ -30,6 +32,7 @@ const Left = () => {
             href="https://codepen.io/abhinkakade/"
             target="_blank"
             rel="nofollow noopener noreferrer"
+            aria-label="Abhishek's CodePen Profile"
           >
             <Codepen className="icons" />
           </a>
