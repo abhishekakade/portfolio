@@ -1,3 +1,38 @@
-p {
+section#about {
   max-width: 70ch;
+}
+
+#about .skill-list {
+  list-style-type: none;
+  width: 100%;
+  margin: 0;
+  padding: 0.5rem;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(auto, auto));
+  grid-column-gap: 1rem;
+  border: 1px solid #64ffda;
+  overflow: hidden;
+}
+
+#about .skill-list .skill-list-item {
+  margin-bottom: 0;
+  padding-left: 0.5rem;
+}
+
+#about .skill-list-item::before {
+  /* content: "▹"; */
+  content: "\25B9";
+  vertical-align: middle;
+  color: #64ffda;
+  font-size: 1rem;
+}
+
+@media only screen and (max-width: 900px) {
+  #about .skill-list {
+    display: block;
+    margin: auto;
+    width: auto;
+    /* display: grid; */
+    /* grid-template-columns: auto; */
+  }
 }

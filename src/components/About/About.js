@@ -43,6 +43,22 @@ const About = () => {
         are a few technologies I've been working with recently and the skills
         I've picked up so far:
       </p>
+
+      <ul className="skill-list mono">
+        <li className="skill-list-item">JavaScript (ES6+)</li>
+        <li className="skill-list-item">TypeScript</li>
+        <li className="skill-list-item">ReactJS, GatsbyJS</li>
+        <li className="skill-list-item">HTML5, CSS3, SCSS</li>
+        <li className="skill-list-item">Progressive Web Apps (PWA)</li>
+        <li className="skill-list-item">Performance Optimizations</li>
+        <li className="skill-list-item">Accessibility</li>
+        <li className="skill-list-item">Responsive Layouts</li>
+        <li className="skill-list-item">Some Node, Express, MongoDB</li>
+        <li className="skill-list-item">Some Python and Golang</li>
+        {/* <li className="skill-list-item"></li>
+        <li className="skill-list-item"></li>
+        <li className="skill-list-item"></li> */}
+      </ul>
     </section>
   )
 }
