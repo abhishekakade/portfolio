@@ -5,19 +5,20 @@ import "./Header.css"
 
 // const Header = ({ siteTitle }) => (
 const Header = () => {
-  let [position, setPosition] = useState(window.pageYOffset)
+  const windowGlobal = typeof window !== "undefined" && window
+  let [position, setPosition] = useState(windowGlobal.pageYOffset)
   let [visible, setVisible] = useState(true)
 
   useEffect(() => {
     const handleScroll = () => {
-      let temp = window.pageYOffset
+      let temp = windowGlobal.pageYOffset
 
       setVisible(position > temp)
       setPosition(temp)
     }
-    window.addEventListener("scroll", handleScroll)
+    windowGlobal.addEventListener("scroll", handleScroll)
     return () => {
-      window.removeEventListener("scroll", handleScroll)
+      windowGlobal.removeEventListener("scroll", handleScroll)
     }
   })
 
@@ -54,7 +55,7 @@ const Header = () => {
           </li>
           <li>
             <a
-              href="#"
+              href="#resume"
               aria-label="Download Abhishek's resume file"
               className="navlinks resume"
               style={{
@@ -72,6 +73,7 @@ const Header = () => {
       </nav>
     </header>
   )
+  // }
 }
 
 Header.propTypes = {
