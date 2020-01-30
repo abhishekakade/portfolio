@@ -73,7 +73,6 @@ const Header = () => {
       </nav>
     </header>
   )
-  // }
 }
 
 Header.propTypes = {
