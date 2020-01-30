@@ -3,6 +3,8 @@ import Intro from "../Intro/Intro"
 // import Header from "../Header/Header"
 import "./Sections.css"
 import About from "../About/About"
+import Projects from "../Projects/Projects"
+import Contact from "../Contact/Contact"
 
 const Sections = () => {
   return (
@@ -11,6 +13,8 @@ const Sections = () => {
       {/* <Header /> */}
       <Intro />
       <About />
+      <Projects />
+      <Contact />
     </>
   )
 }
