@@ -1,4 +1,5 @@
-section#about {
+section#about,
+section#contact {
   max-width: 70ch;
 }
 
