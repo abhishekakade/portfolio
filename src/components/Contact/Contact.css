@@ -1,0 +1,13 @@
+#contact {
+  text-align: center;
+}
+#contact hr {
+  max-width: 75ch;
+}
+#contact p {
+  max-width: 60ch;
+  margin-bottom: 2rem;
+}
+#contact .get-in-touch-btn {
+  margin-top: 1rem;
+}
