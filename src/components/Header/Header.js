@@ -22,9 +22,29 @@ const Header = () => {
     }
   })
 
+  let handleSidebar = () => {
+    let sidebarNav = document.getElementById("nav-list")
+    let navToggle = document.getElementById("nav-toggle")
+    // sidebarNav.classList.toggle("display-flex")
+    navToggle.classList.toggle("animate-toggle")
+    sidebarNav.classList.toggle("active")
+    // sidebarNav.style.width = "200px";
+
+    // wideNav.style.display = "none"
+  }
+
   return (
     <header className={!visible ? "hide-header-navbar" : "show-header-navbar"}>
       <nav id="navbar">
+        <button
+          id="nav-toggle"
+          aria-label="Navigation Menu Button"
+          onClick={handleSidebar}
+        >
+          <div className="line"></div>
+          <div className="line"></div>
+          <div className="line"></div>
+        </button>
         <ul id="nav-list">
           <li>
             <a
