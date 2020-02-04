@@ -1,41 +1,71 @@
 #right {
-  position: fixed;
-  bottom: 0;
-  right: 40px;
-  width: 40px;
-  z-index: 10;
   color: #8892b0;
 }
-#right-email::after {
-  content: "";
-  display: block;
-  width: 1px;
-  height: 90px;
-  background-color: #8892b0;
-  margin: 0px auto;
+
+#right-email {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0px;
+  margin: 0px;
 }
 
 #right-email a {
-  writing-mode: vertical-rl;
-  text-orientation: mixed;
   color: #8892b0;
   text-decoration: none;
   font-family: "Ubuntu Mono", monospace;
-  font-size: 0.95rem;
-  margin-bottom: 2rem;
   transition: 0.5s;
 }
 
 #right-email a:hover {
   color: #64ffda;
-  transform: translateY(-4px);
 }
 
-#right-email {
-  display: flex;
-  flex-direction: column;
-  -webkit-box-align: center;
-  align-items: center;
-  padding: 0px;
-  margin: 0px;
+@media screen and (min-width: 769px) {
+  #right {
+    position: fixed;
+    bottom: 0;
+    right: 40px;
+    width: 40px;
+    z-index: 10;
+  }
+  #right-email::after {
+    content: "";
+    display: block;
+    width: 1px;
+    height: 90px;
+    background-color: #8892b0;
+    margin: 0px auto;
+  }
+
+  #right-email a {
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    font-size: 0.95rem;
+    margin-bottom: 2rem;
+  }
+
+  #right-email a:hover {
+    transform: translateY(-4px);
+  }
+
+  #right-email {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #right-email {
+    flex-direction: row;
+  }
+
+  #right-email a {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+  }
+
+  #right-email a:hover {
+    transform: translateY(-2px);
+  }
 }
