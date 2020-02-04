@@ -51,52 +51,7 @@
 
 @media screen and (max-width: 768px) {
   #left {
-    color: #8892b0;
-  }
-
-  #left-list {
-    display: flex;
-    flex-direction: row;
-    -webkit-box-align: center;
-    align-items: center;
-    justify-content: center;
-    padding: 0px;
-    margin: 0px;
-    list-style: none;
-  }
-
-  #left-list li {
-    margin-bottom: 0;
-  }
-
-  #left-list li a {
-    margin: 0 1rem;
-    padding: 0.5rem 0.5rem;
-  }
-
-  .tooltip .tooltiptext {
-    bottom: 100%;
-    left: 100%;
-    margin-left: -60px;
-  }
-}
-
-@media screen and (min-width: 650px) and (max-width: 768px) {
-  #left-list:last-child::after {
-    content: "";
-    display: block;
-    width: 80px;
-    height: 1px;
-    background-color: #8892b0;
-    margin: 0px auto;
-  }
-  #left-list:last-child::before {
-    content: "";
-    display: block;
-    width: 80px;
-    height: 1px;
-    background-color: #8892b0;
-    margin: 0px auto;
+    display: none;
   }
 }
 
