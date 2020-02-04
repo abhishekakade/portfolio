@@ -1,34 +1,32 @@
-#right {
-  color: #8892b0;
-}
-
-#right-email {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 0px;
-  margin: 0px;
-}
-
-#right-email a {
-  color: #8892b0;
-  text-decoration: none;
-  font-family: "Ubuntu Mono", monospace;
-  transition: 0.5s;
-}
-
-#right-email a:hover {
-  color: #64ffda;
-}
-
 @media screen and (min-width: 769px) {
   #right {
+    color: #8892b0;
     position: fixed;
     bottom: 0;
     right: 40px;
     width: 40px;
     z-index: 10;
   }
+
+  #right-email {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+    margin: 0px;
+  }
+
+  #right-email a {
+    color: #8892b0;
+    text-decoration: none;
+    font-family: "Ubuntu Mono", monospace;
+    transition: 0.5s;
+  }
+
+  #right-email a:hover {
+    color: #64ffda;
+  }
+
   #right-email::after {
     content: "";
     display: block;
@@ -55,17 +53,7 @@
 }
 
 @media screen and (max-width: 768px) {
-  #right-email {
-    flex-direction: row;
-  }
-
-  #right-email a {
-    font-size: 1rem;
-    margin-bottom: 2rem;
-    margin-top: 2rem;
-  }
-
-  #right-email a:hover {
-    transform: translateY(-2px);
+  #right {
+    display: none;
   }
 }
