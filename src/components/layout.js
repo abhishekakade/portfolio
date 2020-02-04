@@ -11,8 +11,7 @@ import PropTypes from "prop-types"
 
 import Header from "./Header/Header"
 import "./layout.css"
-// import Left from "./Left/Left"
-// import Right from "./Right/Right"
+import Footer from "./Footer/Footer"
 
 const Layout = ({ children }) => {
   // const data = useStaticQuery(graphql`
@@ -29,25 +28,17 @@ const Layout = ({ children }) => {
     <>
       {/* <Header siteTitle={data.site.siteMetadata.title} /> */}
       {/* <div
+        id="custom-layout"
         style={{
-          margin: `0 auto`,
-          maxWidth: 960,
-          padding: `0px 1.0875rem 1.45rem`,
-          paddingTop: 0,
+          display: "flex",
+          flexDirection: "column",
         }}
       > */}
-      <div id="custom-layout">
-        <Header />
-        {/* <Left />
-        <Right /> */}
-      </div>
+      <Header />
+
       <main id="main-container">{children}</main>
-      {/* make separate footer component and import in index.js */}
-      {/* <footer>
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
-        </footer> */}
+
+      <Footer />
       {/* </div> */}
     </>
   )
