@@ -5,6 +5,8 @@ import "./Sections.css"
 import About from "../About/About"
 import Projects from "../Projects/Projects"
 import Contact from "../Contact/Contact"
+import Left from "../Left/Left"
+import Right from "../Right/Right"
 
 const Sections = () => {
   return (
@@ -15,6 +17,8 @@ const Sections = () => {
       <About />
       <Projects />
       <Contact />
+      <Left />
+      <Right />
     </>
   )
 }

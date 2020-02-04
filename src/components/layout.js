@@ -11,8 +11,8 @@ import PropTypes from "prop-types"
 
 import Header from "./Header/Header"
 import "./layout.css"
-import Left from "./Left/Left"
-import Right from "./Right/Right"
+// import Left from "./Left/Left"
+// import Right from "./Right/Right"
 
 const Layout = ({ children }) => {
   // const data = useStaticQuery(graphql`
@@ -38,8 +38,8 @@ const Layout = ({ children }) => {
       > */}
       <div id="custom-layout">
         <Header />
-        <Left />
-        <Right />
+        {/* <Left />
+        <Right /> */}
       </div>
       <main id="main-container">{children}</main>
       {/* make separate footer component and import in index.js */}
