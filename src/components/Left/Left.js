@@ -9,22 +9,26 @@ const Left = () => {
       <ul id="left-list">
         <li>
           <a
-            href="https://github.com/abhishekakade"
-            target="_blank"
-            rel="nofollow noopener noreferrer"
-            aria-label="Abhishek's GitHub Profile"
-          >
-            <Github className="icons" />
-          </a>
-        </li>
-        <li>
-          <a
             href="https://www.linkedin.com/in/abhishek-kakade/"
             target="_blank"
             rel="nofollow noopener noreferrer"
             aria-label="Abhishek's LinkedIn Profile"
+            className="tooltip"
           >
             <Linkedin className="icons" />
+            <span className="tooltiptext">LinkedIn</span>
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://github.com/abhishekakade"
+            target="_blank"
+            rel="nofollow noopener noreferrer"
+            aria-label="Abhishek's GitHub Profile"
+            className="tooltip"
+          >
+            <Github className="icons" />
+            <span className="tooltiptext">GitHub</span>
           </a>
         </li>
         <li>
@@ -33,8 +37,10 @@ const Left = () => {
             target="_blank"
             rel="nofollow noopener noreferrer"
             aria-label="Abhishek's CodePen Profile"
+            className="tooltip"
           >
             <Codepen className="icons" />
+            <span className="tooltiptext">CodePen</span>
           </a>
         </li>
       </ul>
