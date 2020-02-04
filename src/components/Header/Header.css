@@ -5,17 +5,17 @@ header {
   /* align-items: center; */
   position: fixed;
   top: 0px;
-  /* margin-top: 1rem; */
   background-color: transparent;
   z-index: 11;
   width: 100%;
   height: auto;
+  min-height: calc(2rem + 20px);
   /* transform: translateY(0px); */
   filter: none !important;
   pointer-events: auto !important;
   user-select: auto !important;
   padding: 1.25rem 50px;
-  transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+  /* transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s; */
   transition: 0.35s;
 }
 
@@ -86,7 +86,16 @@ header {
     border: 1px solid white;
   }
 
+  #nav-toggle.animate-toggle {
+    position: fixed;
+    top: 1rem;
+    right: 1.5rem;
+  }
+
   #nav-toggle {
+    position: absolute;
+    top: 1rem;
+    right: 1.5rem;
     box-sizing: border-box;
     width: 30px;
     height: 20px;
@@ -131,7 +140,8 @@ header {
     background: #dddddd;
 
     display: block;
-    position: absolute;
+    /* position: absolute; */
+    position: fixed;
     border-radius: 10px;
     opacity: 1;
     left: 0;
@@ -171,7 +181,8 @@ header {
     z-index: 5;
     width: 0;
     margin: auto;
-    position: absolute;
+    /* position: absolute; */
+    position: fixed;
     right: 0;
     top: 0;
     flex-direction: column;
@@ -181,7 +192,7 @@ header {
     -moz-transition: all 0s;
     text-align: center;
     height: 100vh;
-    background: rgba(0, 0, 0, 0.85);
+    background: rgba(0, 0, 0, 0.87);
     padding-bottom: 15vh;
   }
 

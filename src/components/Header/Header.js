@@ -3,7 +3,6 @@ import PropTypes from "prop-types"
 // import { Link } from "gatsby"
 import "./Header.css"
 
-// const Header = ({ siteTitle }) => (
 const Header = () => {
   const windowGlobal = typeof window !== "undefined" && window
   let [position, setPosition] = useState(windowGlobal.pageYOffset)
@@ -22,15 +21,11 @@ const Header = () => {
     }
   })
 
-  let handleSidebar = () => {
-    let sidebarNav = document.getElementById("nav-list")
-    let navToggle = document.getElementById("nav-toggle")
-    // sidebarNav.classList.toggle("display-flex")
+  const handleSidebar = () => {
+    const navToggle = document.getElementById("nav-toggle")
+    const sidebarNav = document.getElementById("nav-list")
     navToggle.classList.toggle("animate-toggle")
     sidebarNav.classList.toggle("active")
-    // sidebarNav.style.width = "200px";
-
-    // wideNav.style.display = "none"
   }
 
   return (
@@ -51,6 +46,7 @@ const Header = () => {
               href="#about"
               className="navlinks"
               aria-label="Jump to About section"
+              onClick={handleSidebar}
             >
               About
             </a>
@@ -60,6 +56,7 @@ const Header = () => {
               href="#projects"
               className="navlinks"
               aria-label="Jump to Projects section"
+              onClick={handleSidebar}
             >
               Projects
             </a>
@@ -69,6 +66,7 @@ const Header = () => {
               href="#contact"
               className="navlinks"
               aria-label="Jump to Contact section"
+              onClick={handleSidebar}
             >
               Contact
             </a>
@@ -78,6 +76,7 @@ const Header = () => {
               href="#resume"
               aria-label="Download Abhishek's resume file"
               className="navlinks resume"
+              onClick={handleSidebar}
               style={{
                 color: "#64ffda",
                 padding: "0.5rem 0.75rem",
