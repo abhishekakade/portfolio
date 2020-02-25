@@ -12,7 +12,7 @@
 }
 
 .project:last-child {
-  margin-bottom: 0;
+  margin-bottom: -2rem;
 }
 
 /* .project:nth-child(even) .project-links a {
@@ -69,8 +69,9 @@
   margin: 0 0 1rem 0;
 }
 .project-tags li {
-  margin: 0 1rem 1rem 0;
   font-family: "Ubuntu Mono", monospace;
+  font-size: 0.9rem;
+  margin: 0 1rem 1rem 0;
   color: #ccd6f6;
   margin-right: 0.5rem;
   padding: 5px 0.75rem;
