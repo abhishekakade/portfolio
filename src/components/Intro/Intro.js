@@ -7,13 +7,7 @@ const Intro = () => {
     <section id="intro">
       <h1 className="highlight-text-green mono small">Hi, my name is</h1>
       <h2 className="title">Abhishek Kakade.</h2>
-      <h3
-        style={{
-          fontSize: "2.75rem",
-        }}
-      >
-        I build things for the web.
-      </h3>
+      <h3>I build things for the web.</h3>
 
       <p id="intro-para">
         I'm a versatile{" "}
