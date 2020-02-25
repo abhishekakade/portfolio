@@ -1,0 +1,81 @@
+.featured {
+  font-family: "Ubuntu Mono", monospace;
+  font-size: 16px;
+  font-weight: 400;
+  color: #64ffda;
+  margin: 0;
+  margin-bottom: 0.5rem;
+}
+
+.project {
+  margin-bottom: 5rem;
+}
+
+.project:last-child {
+  margin-bottom: 0;
+}
+
+/* .project:nth-child(even) .project-links a {
+  margin-right: 0;
+  margin-left: 1rem;
+}
+.project:nth-child(even) {
+  text-align: right;
+} */
+
+.project-title {
+  font-size: 1.25rem;
+  color: #ccd6f6;
+  margin-bottom: 1rem;
+  /* text-decoration: underline; */
+}
+
+.project .project-info {
+  word-spacing: 1px;
+}
+
+.project-links,
+.project-info {
+  margin-bottom: 1rem;
+}
+
+.project-links a {
+  vertical-align: middle;
+  margin: 0;
+  margin-right: 1rem;
+  padding: 0.65rem 1rem;
+  border: 1px solid #64ffda;
+  border-radius: 4px;
+  text-decoration: none;
+  font-family: monospace;
+  color: #64ffda;
+}
+
+.project-links a:hover {
+  background-color: #10293b;
+}
+
+.project-external-link-icon,
+.project-github-link-icon {
+  vertical-align: sub;
+  height: 1rem;
+  width: 1rem;
+  color: #ccd6f6;
+}
+
+.project-tags {
+  list-style: none;
+  display: flex;
+  margin: 0 0 1rem 0;
+}
+.project-tags li {
+  margin: 0 1rem 1rem 0;
+  font-family: "Ubuntu Mono", monospace;
+  color: #ccd6f6;
+  margin-right: 0.5rem;
+  padding: 5px 0.75rem;
+  background-color: #121212;
+  border: 1px solid #333f58;
+  border-radius: 5px;
+  /* box-shadow: inset 0 0 5px rgba(255, 255, 255, 0.25); */
+}
