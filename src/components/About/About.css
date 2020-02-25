@@ -22,6 +22,7 @@ section#contact {
 
 #about .skill-list-item::before {
   /* content: "▹"; */
+  padding-right: 5px;
   content: "\25B9";
   vertical-align: middle;
   color: #64ffda;
@@ -33,6 +34,7 @@ section#contact {
     display: block;
     margin: auto;
     width: auto;
+    border: none;
     /* display: grid; */
     /* grid-template-columns: auto; */
   }

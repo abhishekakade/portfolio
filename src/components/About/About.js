@@ -53,8 +53,10 @@ const About = () => {
         <li className="skill-list-item">Performance Optimizations</li>
         <li className="skill-list-item">Accessibility</li>
         <li className="skill-list-item">Responsive Layouts</li>
-        <li className="skill-list-item">Some Node, Express, MongoDB</li>
-        <li className="skill-list-item">Some Python and Golang</li>
+        <li className="skill-list-item">GraphQL</li>
+        <li className="skill-list-item">Basic React Native</li>
+        <li className="skill-list-item">Basic Node, Express, MongoDB</li>
+        <li className="skill-list-item">Basic Python</li>
         {/* <li className="skill-list-item"></li>
         <li className="skill-list-item"></li>
         <li className="skill-list-item"></li> */}
