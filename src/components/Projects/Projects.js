@@ -13,8 +13,9 @@ const Projects = () => {
         <h5 className="project-title">Flickk - Movies Info App</h5>
         <p className="project-info">
           Progressive Web App (PWA) built with ReactJS & TMDb API that shows all
-          the trending movies, their summary and even cast
-          information. Optimized for performance. 
+          the trending movies, their summary and even cast information, along
+          with an option to search for specific movies. Optimized for
+          performance. 
           {/* <a
             href="https://www.themoviedb.org/"
             target="_blank"

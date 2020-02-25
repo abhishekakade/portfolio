@@ -28,7 +28,7 @@ MAIN CONTAINER
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />
+    <SEO title="Abhishek - Front-End Developer" />
 
     {/* add all components here and they will be children of main */}
 

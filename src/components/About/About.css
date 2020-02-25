@@ -1,8 +1,3 @@
-section#about,
-section#contact {
-  max-width: 70ch;
-}
-
 #about .skill-list {
   list-style-type: none;
   width: 100%;
