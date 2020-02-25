@@ -34,7 +34,7 @@ const Projects = () => {
             target="_blank"
           >
             <LinkExternal className="project-external-link-icon" size="1rem" />{" "}
-            Live Project
+            Live
           </a>
           <a
             href="https://github.com/abhishekakade/flickk-app"
@@ -42,7 +42,6 @@ const Projects = () => {
             target="_blank"
           >
             <Github className="project-github-link-icon" size="1rem" /> GitHub
-            Repo
           </a>
         </p>
       </div>
@@ -67,7 +66,7 @@ const Projects = () => {
             target="_blank"
           >
             <LinkExternal className="project-external-link-icon" size="1rem" />{" "}
-            Live Project
+            Live
           </a>
           <a
             href="https://github.com/abhishekakade/random-quote-machine"
@@ -75,7 +74,6 @@ const Projects = () => {
             target="_blank"
           >
             <Github className="project-github-link-icon" size="1rem" /> GitHub
-            Repo
           </a>
         </p>
       </div>
@@ -101,7 +99,7 @@ const Projects = () => {
             target="_blank"
           >
             <LinkExternal className="project-external-link-icon" size="1rem" />{" "}
-            Live Project
+            Live
           </a>
           <a
             href="https://github.com/abhishekakade/markdown-previewer"
@@ -109,7 +107,6 @@ const Projects = () => {
             target="_blank"
           >
             <Github className="project-github-link-icon" size="1rem" /> GitHub
-            Repo
           </a>
         </p>
       </div>
@@ -134,7 +131,7 @@ const Projects = () => {
             target="_blank"
           >
             <LinkExternal className="project-external-link-icon" size="1rem" />{" "}
-            Live Project
+            Live
           </a>
           <a
             href="https://github.com/abhishekakade/drum-kit"
@@ -142,7 +139,6 @@ const Projects = () => {
             target="_blank"
           >
             <Github className="project-github-link-icon" size="1rem" /> GitHub
-            Repo
           </a>
         </p>
       </div>
