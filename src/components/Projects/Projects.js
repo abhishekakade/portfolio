@@ -1,12 +1,11 @@
 import React from "react"
-// import { ExternalLink } from "styled-icons/feather/"
 import { LinkExternal } from "styled-icons/octicons/"
 import { Github } from "styled-icons/icomoon/"
 import "./Projects.css"
 
 const Projects = () => {
   return (
-    <section id="about">
+    <section id="projects">
       <h3 className="title">Projects</h3>
       <hr className="hr-green" />
       <div className="project">
@@ -21,8 +20,6 @@ const Projects = () => {
             target="_blank"
             rel="noopener noreferrer nofollow"
           > */}
-          {/* See which movies are trending, their ratings, description, cast,
-          genres and more. You can even search for specific movies available in{" "} */}
         </p>
         <ul className="project-tags">
           <li>ReactJS</li>
@@ -36,7 +33,6 @@ const Projects = () => {
             rel="noreferrer noopener nofollow"
             target="_blank"
           >
-            {/* <ExternalLink className="project-external-link-icon" size="1.25rem" /> */}
             <LinkExternal className="project-external-link-icon" size="1rem" />{" "}
             Live Project
           </a>
@@ -70,7 +66,6 @@ const Projects = () => {
             rel="noreferrer noopener nofollow"
             target="_blank"
           >
-            {/* <ExternalLink className="project-external-link-icon" size="1.25rem" /> */}
             <LinkExternal className="project-external-link-icon" size="1rem" />{" "}
             Live Project
           </a>
@@ -105,7 +100,6 @@ const Projects = () => {
             rel="noreferrer noopener nofollow"
             target="_blank"
           >
-            {/* <ExternalLink className="project-external-link-icon" size="1.25rem" /> */}
             <LinkExternal className="project-external-link-icon" size="1rem" />{" "}
             Live Project
           </a>
@@ -139,7 +133,6 @@ const Projects = () => {
             rel="noreferrer noopener nofollow"
             target="_blank"
           >
-            {/* <ExternalLink className="project-external-link-icon" size="1.25rem" /> */}
             <LinkExternal className="project-external-link-icon" size="1rem" />{" "}
             Live Project
           </a>
@@ -153,12 +146,6 @@ const Projects = () => {
           </a>
         </p>
       </div>
-      {/* <div className="project">
-        <h4>Featured Project</h4>
-        <h5 className="project-title">Project Name</h5>
-        <p>Project info.</p>
-        <p className="project-links">
-        <a href="" rel="noreferrer noopener nofollow" target="_blank">Live Project <ExternalLink className="project-external-link-icon" size="1.25rem" /></a></p> */}
     </section>
   )
 }
