@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react"
 import PropTypes from "prop-types"
 // import { Link } from "gatsby"
+// import * as ResumePDF from "../../resume/abhisheks_resume.pdf"
 import "./Header.css"
 
 const Header = () => {
@@ -73,8 +74,12 @@ const Header = () => {
           </li>
           <li>
             <a
-              href="#resume"
-              aria-label="Download Abhishek's resume file"
+              // href={ResumePDF}
+              href="https://abhishekakade.github.io/resume"
+              type="application/pdf"
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+              aria-label="Download Abhishek's Resume File PDF"
               className="navlinks resume"
               onClick={handleSidebar}
               style={{
