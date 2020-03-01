@@ -1,6 +1,6 @@
 .featured {
   font-family: "Ubuntu Mono", monospace;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 400;
   color: #64ffda;
   margin: 0;
@@ -8,7 +8,10 @@
 }
 
 .project {
-  margin-bottom: 5rem;
+  margin: 1.5rem 0;
+  border: 2px solid rgba(255, 255, 255, 0.25);
+  padding: 1.5rem;
+  border-radius: 10px;
 }
 
 .project:last-child {
@@ -16,7 +19,7 @@
 }
 
 .project-title {
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   color: #ccd6f6;
   margin-bottom: 1rem;
 }
@@ -25,7 +28,9 @@
   word-spacing: 1px;
 }
 
-.project-links,
+.project-links {
+  margin: 0;
+}
 .project-info {
   margin-bottom: 1rem;
   margin-top: 1rem;
@@ -38,7 +43,7 @@
 
 .project-links a {
   vertical-align: middle;
-  margin: 0.25rem 0 0 0;
+  margin: 0;
   margin-right: 1rem;
   padding: 0.5rem 1rem;
   border: 1px solid #64ffda;
@@ -46,6 +51,13 @@
   text-decoration: none;
   font-family: monospace;
   color: #64ffda;
+}
+
+.project-links a.github-link {
+  background-color: #121212;
+  border: 1px solid #a8b2d1;
+  color: #ccd6f6;
+  /* color: #a8b2d1; */
 }
 
 .project-links a:hover {

@@ -39,7 +39,7 @@
   #right-email a {
     writing-mode: vertical-rl;
     text-orientation: mixed;
-    font-size: 0.95rem;
+    font-size: 1.35rem;
     margin-bottom: 2rem;
   }
 
@@ -49,6 +49,18 @@
 
   #right-email {
     flex-direction: column;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  #right {
+    right: 80px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  #right-email a {
+    font-size: 1.25rem;
   }
 }
 

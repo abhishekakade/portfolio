@@ -26,6 +26,7 @@ const Projects = () => {
           <li>ReactJS</li>
           <li>PWA</li>
           <li>TMDb API</li>
+          <li>Infinite Scroll</li>
           <li>Optimized</li>
         </ul>
         <p className="project-links">
@@ -38,6 +39,7 @@ const Projects = () => {
             Live
           </a>
           <a
+            className="github-link"
             href="https://github.com/abhishekakade/flickk-app"
             rel="noreferrer noopener nofollow"
             target="_blank"
@@ -70,6 +72,7 @@ const Projects = () => {
             Live
           </a>
           <a
+            className="github-link"
             href="https://github.com/abhishekakade/random-quote-machine"
             rel="noreferrer noopener nofollow"
             target="_blank"
@@ -103,6 +106,7 @@ const Projects = () => {
             Live
           </a>
           <a
+            className="github-link"
             href="https://github.com/abhishekakade/markdown-previewer"
             rel="noreferrer noopener nofollow"
             target="_blank"
@@ -135,6 +139,7 @@ const Projects = () => {
             Live
           </a>
           <a
+            className="github-link"
             href="https://github.com/abhishekakade/drum-kit"
             rel="noreferrer noopener nofollow"
             target="_blank"

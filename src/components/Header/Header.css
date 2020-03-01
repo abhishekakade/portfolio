@@ -14,7 +14,7 @@ header {
   filter: none !important;
   pointer-events: auto !important;
   user-select: auto !important;
-  padding: 1.25rem 50px;
+  padding: 1.5rem 50px;
   /* transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s; */
   transition: 0.35s;
 }
@@ -43,7 +43,7 @@ header {
 }
 #nav-list .navlinks {
   padding: 1rem;
-  font-size: 1rem;
+  font-size: 1.25rem;
   font-family: "Ubuntu Mono", monospace;
   text-decoration: none;
   color: #ccd6f6;
@@ -127,17 +127,17 @@ header {
   }
 
   #nav-toggle:focus * {
-    box-shadow: 0 0 0 1px #a8b2d1;
-    background: #ccd6f6 !important;
+    box-shadow: 0 0 0 1px #64ffda;
+    background: #64ffda !important;
   }
 
   #nav-toggle .line {
     margin: 0;
     padding: 0;
-    height: 3px;
+    height: 2px;
     width: 100%;
     /* margin: 5px; */
-    background: #dddddd;
+    background: #64ffda;
 
     display: block;
     /* position: absolute; */

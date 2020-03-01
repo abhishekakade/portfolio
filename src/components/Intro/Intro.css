@@ -5,11 +5,12 @@
 }
 
 .get-in-touch-btn {
+  font-family: monospace;
+  font-size: 1.5rem;
   padding: 0.75rem 1.25rem;
   border: 1px solid #64ffda;
   border-radius: 4px;
   text-decoration: none;
-  font-family: monospace;
   margin: 0;
 }
 
@@ -48,5 +49,9 @@
 
   #intro h3 {
     font-size: 2.25rem;
+  }
+
+  .get-in-touch-btn {
+    font-size: 1.25rem;
   }
 }

@@ -59,19 +59,24 @@ section {
   padding: 100px 0;
   max-width: 70ch;
 }
+section p {
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
 
 .mono {
   font-family: "Ubuntu Mono", monospace;
 }
 
 .small {
-  font-size: 1rem;
+  font-size: 1.1rem;
   font-weight: 400;
 }
 
 .title {
   color: #ccd6f6;
   font-size: 1.75rem;
+  font-size: 2rem;
 }
 
 .hr-green {
@@ -81,7 +86,7 @@ section {
 
 @media screen and (max-width: 768px) {
   #main-container {
-    padding: 1.5rem;
+    padding: 2rem;
   }
 
   section {
