@@ -9,18 +9,12 @@ const Projects = () => {
       <h3 className="title">Projects</h3>
       <hr className="hr-green" />
       <div className="project">
-        <h4 className="featured">Featured Project</h4>
         <h5 className="project-title">Flickk - Movies Info App</h5>
         <p className="project-info">
           Progressive Web App (PWA) built with ReactJS & TMDb API that shows all
           the trending movies, their summary and even cast information, along
           with an option to search for specific movies. Optimized for
           performance. 
-          {/* <a
-            href="https://www.themoviedb.org/"
-            target="_blank"
-            rel="noopener noreferrer nofollow"
-          > */}
         </p>
         <ul className="project-tags">
           <li>ReactJS</li>
@@ -50,7 +44,6 @@ const Projects = () => {
       </div>
 
       <div className="project">
-        <h4 className="featured">Featured Project</h4>
         <h5 className="project-title">Random Quote Machine</h5>
         <p className="project-info">
           Progressive Web App (PWA) built with ReactJS, uses FavQs API to fetch
@@ -83,7 +76,6 @@ const Projects = () => {
       </div>
 
       <div className="project">
-        <h4 className="featured">Featured Project</h4>
         <h5 className="project-title">Markdown Previewer</h5>
         <p className="project-info">
           Progressive Web App (PWA) built with ReactJS & Marked.js library. Its
@@ -117,7 +109,6 @@ const Projects = () => {
       </div>
 
       <div className="project">
-        <h4 className="featured">Featured Project</h4>
         <h5 className="project-title">React Piano/Drumkit</h5>
         <p className="project-info">
           Progressive Web App (PWA) built with ReactJS. Features a minimalist
@@ -148,6 +139,31 @@ const Projects = () => {
           </a>
         </p>
       </div>
+
+      <p
+        className="project-links"
+        style={{
+          display: "block",
+          margin: "auto",
+          padding: "0.5rem",
+          textAlign: "center",
+        }}
+      >
+        <a
+          style={{
+            margin: "auto",
+            padding: "0.5rem 1rem",
+            padding: "0.75rem",
+          }}
+          className="github-link"
+          href="https://github.com/abhishekakade/"
+          rel="noreferrer noopener nofollow"
+          target="_blank"
+        >
+          <Github className="project-github-link-icon" size="1rem" /> More on
+          GitHub
+        </a>
+      </p>
     </section>
   )
 }

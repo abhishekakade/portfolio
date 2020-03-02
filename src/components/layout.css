@@ -1,4 +1,7 @@
-@import url("https://fonts.googleapis.com/css?family=Roboto|Ubuntu+Mono&display=swap");
+/* 
+commented out because @import affects audit scores and fonts are now being loaded from Helmet
+@import url("https://fonts.googleapis.com/css?family=Roboto|Ubuntu+Mono&display=swap&text=abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890@!-"); 
+*/
 
 html {
   font-family: "Roboto", sans-serif;
@@ -49,12 +52,6 @@ body {
   padding: 40px 150px;
 }
 
-/* #custom-layout {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-} */
-
 section {
   padding: 100px 0;
   max-width: 70ch;
@@ -86,26 +83,13 @@ section p {
 
 @media screen and (max-width: 768px) {
   #main-container {
-    padding: 2rem;
+    padding: 1.5rem;
   }
 
   section {
     padding-bottom: 50px;
   }
 }
-
-/* 
-h3.title::after {
-  display: inline-block;
-  content: "";
-  position: relative;
-  width: 55ch;
-  height: 1px;
-  top: -5px;
-  margin-left: 0.5rem;
-  background-color: #64ffda;
-}
- */
 
 /* custom styles */
 

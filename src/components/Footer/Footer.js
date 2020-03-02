@@ -46,10 +46,10 @@ const Footer = () => {
       </ul>
       <p>
         Made with&nbsp; {<Heart id="heart-icon" />} &nbsp;using{" "}
-        <a href="https://www.gatsbyjs.org">Gatsby</a>!
+        <a href="https://www.gatsbyjs.org">Gatsby</a>
       </p>
       <p id="design-by">
-        Design -{" "}
+        Design by -{" "}
         <a
           href="https://github.com/bchiang7/v4"
           target="_blank"
