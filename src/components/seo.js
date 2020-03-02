@@ -73,6 +73,7 @@ function SEO({ description, lang, meta, title }) {
         href="https://fonts.googleapis.com/css?family=Roboto|Ubuntu+Mono&display=swap&text=abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890@!-"
         rel="stylesheet"
       ></link>
+      {/* Animate on Scroll CSS required styles added in layout.css */}
     </Helmet>
   )
 }
