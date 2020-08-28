@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react"
 import PropTypes from "prop-types"
+// import logo from "../../images/logo.png"
 // import { Link } from "gatsby"
 // import * as ResumePDF from "../../resume/abhisheks_resume.pdf"
 import "./Header.css"
@@ -32,6 +33,15 @@ const Header = () => {
   return (
     <header className={!visible ? "hide-header-navbar" : "show-header-navbar"}>
       <nav id="navbar">
+        {/* <img
+          height="38.5px"
+          width="29px"
+          src={logo}
+          alt="logo"
+          style={{
+            marginBottom: 0,
+          }}
+        /> */}
         <button
           id="nav-toggle"
           aria-label="Navigation Menu Button"

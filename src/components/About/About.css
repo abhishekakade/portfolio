@@ -13,6 +13,10 @@
   color: #a8b2d1;
 }
 
+#about .graduated {
+  text-decoration-color: #64ffda;
+}
+
 #about .skill-list .skill-list-item {
   margin-bottom: 0;
   padding-left: 0.5rem;

@@ -159,7 +159,7 @@ section p {
 }
 
 .highlight-text-white {
-  color: #ccd6f6;
+  /* color: #ccd6f6; */
   color: #e6f1ff;
   font-family: "Ubuntu Mono";
   /* letter-spacing: -0.5px; */

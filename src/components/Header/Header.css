@@ -207,7 +207,7 @@ header {
     margin-top: 1.5rem !important;
   }
   #nav-list li .navlinks {
-    font-size: 1.1rem;
+    font-size: 1.25rem;
     color: #ccd6f6;
     overflow: hidden;
     transition: color 1s;

@@ -39,6 +39,8 @@ const About = () => {
           India to receive Google-Udacity's Front-End Nanodegree. This was HUGE
           for me and it changed my life forever! I successfully{" "}
           <a
+            title="Google-Udacity Front-End Nanodegree Certificate"
+            className="highlight-text-white graduated"
             href="https://graduation.udacity.com/confirm/DEJDC66D"
             target="_blank"
             rel="nofollow noopener noreferrer"
@@ -57,17 +59,17 @@ const About = () => {
       <ScrollAnimation animateIn="fadeIn">
         <ul className="skill-list mono">
           <li className="skill-list-item">JavaScript (ES6+)</li>
-          <li className="skill-list-item">TypeScript</li>
-          <li className="skill-list-item">ReactJS, GatsbyJS</li>
           <li className="skill-list-item">HTML5, CSS3, SCSS</li>
+          <li className="skill-list-item">ReactJS, Gatsby</li>
           <li className="skill-list-item">Progressive Web Apps</li>
-          <li className="skill-list-item">Performance Optimizations</li>
+          <li className="skill-list-item">Benchmarking</li>
+          <li className="skill-list-item">Performance Optimization</li>
           <li className="skill-list-item">Accessibility</li>
           <li className="skill-list-item">Responsive Layouts</li>
           <li className="skill-list-item">GraphQL</li>
           <li className="skill-list-item">Basic React Native</li>
           <li className="skill-list-item">Basic Node, Express, MongoDB</li>
-          <li className="skill-list-item">Basic Python</li>
+          <li className="skill-list-item">Basic Golang</li>
           {/* <li className="skill-list-item"></li>
         <li className="skill-list-item"></li>
         <li className="skill-list-item"></li> */}
