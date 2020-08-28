@@ -1,3 +1,7 @@
+#intro {
+  margin-top: 1rem;
+}
+
 #intro p {
   max-width: 70ch;
   padding-bottom: 3rem;
@@ -43,5 +47,11 @@
 
   .get-in-touch-btn {
     font-size: 1.15rem;
+  }
+}
+
+@media screen and (min-width: 1024px) and (min-height: 1000px) {
+  #intro {
+    margin-top: 5rem;
   }
 }
